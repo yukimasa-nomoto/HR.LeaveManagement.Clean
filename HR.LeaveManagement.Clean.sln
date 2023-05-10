@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目
 		ReadMe.md = ReadMe.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence", "HR.LeaveManagement.Persistence\HR.LeaveManagement.Persistence.csproj", "{3F6DB065-E15E-47F6-BA3D-351704A58AF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{166EBBB1-ABED-463A-B494-36A801729879}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166EBBB1-ABED-463A-B494-36A801729879}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166EBBB1-ABED-463A-B494-36A801729879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6DB065-E15E-47F6-BA3D-351704A58AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6DB065-E15E-47F6-BA3D-351704A58AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6DB065-E15E-47F6-BA3D-351704A58AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6DB065-E15E-47F6-BA3D-351704A58AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{136FCEB4-C66A-448D-9CE4-F3A511C48C1B} = {86C75CFA-C4F8-443C-B1E6-2B58AE5704DD}
 		{25E6B9AB-F8CB-46E3-9B06-D47CDB39AD0A} = {BE1097A9-59BB-41C0-A263-0483FBC00908}
 		{166EBBB1-ABED-463A-B494-36A801729879} = {BE1097A9-59BB-41C0-A263-0483FBC00908}
+		{3F6DB065-E15E-47F6-BA3D-351704A58AF9} = {6D239B9F-A676-4F08-89C1-DABCA3C51D0F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26B94A06-8C0E-4721-A17E-321EE6ABB0EB}
