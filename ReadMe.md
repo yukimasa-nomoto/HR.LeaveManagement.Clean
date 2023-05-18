@@ -1,7 +1,19 @@
+DB接続必須
+
+2023/05/18
+HR.LeaveManagement.Persistence.IntegrationTests も作成
+	EntityFrameworkInMemoryもnugetから
+
+section7終了
+
 2023/05/17
 
 test
+	xUnitを実装
+		Moq,Shouldlyをnuget
 
+	section53。createdのところをコメントアウトにしたらテストは動いた
+	section54から
 
 api
 	appsettings.jsonに接続文字記載
