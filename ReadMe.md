@@ -1,5 +1,21 @@
 DB接続必須
 
+
+2023/05/25
+
+section9開始 securing api
+HR.LeaveManagement.Identity 作成
+
+
+NSwagStudioインストール
+BlazorないでViewModelを用意する
+LeaveTypeDtoは、APIと連携せずに、使用する。NSwaggerStudioで持ってきてる
+CreateLeaveTypeCommandもNSwaggerStudioで用意されている
+↓
+section8終了
+	DB繋いで「LeaveTypes」まで表示されるのは確認
+
+
 2023/05/18
 HR.LeaveManagement.Persistence.IntegrationTests も作成
 	EntityFrameworkInMemoryもnugetから
