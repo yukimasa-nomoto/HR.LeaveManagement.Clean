@@ -5,8 +5,19 @@ DB接続必須
 
 section9開始 securing api
 HR.LeaveManagement.Identity 作成
+Application
+	contractsにIndentity IAuthService等を構築
+aspnetcore.identityがdeprecated 他のを入れてみる  identity.ui
+identityにもModels作る
+Jwt関係を作る。deprecatedをなんとかクリア
+Dbを作成
+	またadd-migrationをする
+		add-migration InitialIdentityMigration -Context HrLeaveManagementIdentityDbContext
+		Update-Database -Context HrLeaveManagementIdentityDbContext
+section64まで終了
+	jwt.ioで確認OK
 
-
+---------------------------------------------------------------
 NSwagStudioインストール
 BlazorないでViewModelを用意する
 LeaveTypeDtoは、APIと連携せずに、使用する。NSwaggerStudioで持ってきてる

@@ -35,7 +35,7 @@ public class UpdateLeaveRequestCommandHandler : IRequestHandler<UpdateLeaveReque
 
 
         var validator = new UpdateLeaveRequestCommandValidator(_leaveTypeRepository, _leaveRequestRepository);
-        var validationResult = await validator.ValidateAsync(request);
+        var validationResult = await validator.ValidateAsync(request , cancellationToken);
 
         if (validationResult.Errors.Any())
             throw new BadRequestException("Invalid Leave Request", validationResult);
