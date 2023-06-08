@@ -1,22 +1,21 @@
-﻿//using AutoMapper;
-//using Blazored.LocalStorage;
+﻿using AutoMapper;
+using Blazored.LocalStorage;
 using HR.LeaveManagement.BlazorUI.Contracts;
-//using HR.LeaveManagement.BlazorUI.Models.LeaveAllocations;
-//using HR.LeaveManagement.BlazorUI.Models.LeaveRequests;
+using HR.LeaveManagement.BlazorUI.Models.LeaveAllocations;
+using HR.LeaveManagement.BlazorUI.Models.LeaveRequests;
 using HR.LeaveManagement.BlazorUI.Services.Base;
 
 namespace HR.LeaveManagement.BlazorUI.Services
 {
     public class LeaveRequestService : BaseHttpService, ILeaveRequestService
     {
-        //private readonly IMapper _mapper;
+        private readonly IMapper _mapper;
 
-        public LeaveRequestService(IClient client) : base(client)  //, IMapper mapper, ILocalStorageService localStorageService) : base(client, localStorageService)
+        public LeaveRequestService(IClient client, IMapper mapper, ILocalStorageService localStorageService) : base(client, localStorageService)
         {
-            //this._mapper = mapper;
+            this._mapper = mapper;
         }
 
-        /*
         public async Task ApproveLeaveRequest(int id, bool approved)
         {
             try
@@ -87,6 +86,5 @@ namespace HR.LeaveManagement.BlazorUI.Services
 
             return model;
         }
-        */
     }
 }
